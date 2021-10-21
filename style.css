@@ -1,0 +1,109 @@
+body {
+    background-color: #1695DA;
+}
+
+header.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.title-box {
+    background-color: white;
+    position: relative;
+    top: 300px;
+    z-index: 999;
+}
+
+.header h1 , p ,li {
+    font-family: cursive;
+    margin: 0 auto;
+} 
+
+.header h1 , p {
+    margin: 20px;
+}
+
+/* slider */
+
+div.slides {
+    display: flex;
+    flex-direction: row;
+    animation: glisse 5s infinite ease;
+}
+
+.slide {
+    opacity: 0.5;
+}
+
+img {
+    position: relative;
+    top: -150px;
+}
+
+
+@keyframes glisse {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-500px);
+    }
+
+    66% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+}
+
+/* menu de navigation */
+
+nav.menu ul {
+    margin: 0 auto;
+}
+
+nav.menu ul {
+    display: flex;
+}
+
+nav.menu ul li {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    flex: 1;
+    height: 300px;
+}
+
+.pizza {
+    background: url(pizza2.jpg) 100%;
+}
+
+.salade {
+    background: url(pizza2.jpg) 100%;
+}
+
+.burger {
+    background: url(pizza2.jpg) 100%;
+}
+
+.boissons {
+    background: url(pizza2.jpg) 100%;
+}
