@@ -136,6 +136,13 @@ nav.menu ul li {
     background-color: white;
     margin: 50px;
     display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 section {
@@ -146,4 +153,8 @@ section img {
     width: 300px;
     position: relative;
     top: 0px;
+}
+
+h2.cool {
+    background-color: white;
 }
