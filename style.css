@@ -1,5 +1,5 @@
 html {
-    min-width: 500px;
+    min-width: 100px;
 }
 
 
@@ -26,6 +26,7 @@ div.title-box {
     top: 300px;
     z-index: 999;
     box-shadow: -12px 12px 2px 1px black;
+    font-size: 2vw
 }
 
 .header h1 , p ,li {
@@ -47,6 +48,7 @@ div.slides {
 
 .slide {
     opacity: 0.5;
+    font-size: 4.5vw
 }
 
 img {
@@ -83,10 +85,12 @@ img {
 
 nav.menu ul {
     margin: 0 auto;
+    font-size: 4.5vw
 }
 
 nav.menu ul {
     display: flex;
+    font-size: 4.5vw
 }
 
 nav.menu ul li {
@@ -98,6 +102,7 @@ nav.menu ul li {
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    font-size: 4.5vw
 }
 
 
@@ -111,6 +116,7 @@ nav.menu ul li {
     height: 300px;
     position: relative;
     top: -150px;
+    font-size: 4.5vw
 }
 
 .pizza {
